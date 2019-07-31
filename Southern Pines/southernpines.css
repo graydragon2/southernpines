@@ -1,0 +1,81 @@
+body {
+  color: rgb(248, 241, 241);
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+h1 {
+text-align: center;
+font-size: 50px;
+padding: 5%;
+}
+
+h2 {
+text-align: center;
+font-size: 30px;
+} 
+
+p {
+font-size: 18px;
+ }
+
+ html { 
+  
+  background: url(images/lake.png) no-repeat center center fixed, rgb(106, 171, 196); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+    
+
+.s3da {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact{
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.usarchery {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  text-align: center;
+}
+
+/* code that is here, until the first @media block, will apply to any screen size */
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  .body {
+    width: 120px ;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  .body {
+    width: 320px ;
+  }
+}
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  .body {
+    width: 480px ;
+  }
+}
+
+/* code that is here will apply to any screen size */
